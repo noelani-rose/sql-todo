@@ -13,7 +13,7 @@ if (process.env.DATABASE_URL){
 }
 else {
   let pool = new pg.Pool({
-    database: "cloud_todo"
+    database: "cloud-todo"
   });
 }
 module.exports = pool;
